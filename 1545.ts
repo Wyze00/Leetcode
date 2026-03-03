@@ -13,11 +13,9 @@ function findKthBit(n: number, k: number): string {
         n--;
     }
 
-    return s[k-1]!;
+    return s!;
 };
 
 function invertStringBit(str: string): string {
     return str.split('').map(c => c === '1' ? '0' : '1').join('');
 }
-
-console.log(findKthBit(3,1));
