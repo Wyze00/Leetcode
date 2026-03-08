@@ -31,6 +31,6 @@ function minOperations(s: string): number {
         even = !even;
     }
 
-    // Return yang flipnya paling dikit
+    // Return yang flipnya paling dikit1
     return Math.min(oneFirst, zeroFirst);
 };
